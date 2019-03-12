@@ -8,8 +8,8 @@ import java.util.Scanner;
 class NetworkUtils {
 
     //Oauth2 key/secret authentication based on credentials from github settings
-    private static final String CLIENT_ID = "1d944440385c1c8c707a";
-    private static final String CLIENT_SECRET = "a91ea2bbb3ba5c3e0cfc016cf27662dcd6bdf17a";
+    private static final String CLIENT_ID = "XXXXX";
+    private static final String CLIENT_SECRET = "XXXXXXX";
     private static final String scheme = "https";
     private static final String host = "api.github.com";
     private static final String query = String.format("client_id=%s&client_secret=%s", CLIENT_ID, CLIENT_SECRET);
